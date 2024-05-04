@@ -248,14 +248,17 @@ ul a{
     /* width: 80%;     */
 }
 .cart{
-    margin-bottom: 20px;
-    justify-content: center;
     height: 28px;
     width: 7rem;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #FFD814;
     border: #FFD814;
+    
 
+}
+.cart:hover{
+    background-color:orange;
+    border: orange;
 }
 .price{
     font-weight: bold;
@@ -266,9 +269,13 @@ ul a{
     border-radius: 5px;
     height: 20px;
     width: 50px;
+   
 }
 .flex{
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 20px;}
+    flex-direction: row;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
