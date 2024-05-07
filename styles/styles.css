@@ -288,3 +288,41 @@ ul a{
     align-content: center;
     justify-content: center;
 }
+
+.Cart-Summary{
+    height: 600px;
+     display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.Cart-Box{
+    box-shadow: 10px 10px 5px gray;
+    height: 500px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cart-Header{
+    background-color: #febb68;
+    text-align: center;
+    height: 40px;
+}
+.grind-container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    gap: 10px;
+}
+.Cart-Box .total-price{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding-right: 95px;
+    justify-self: flex-end;
+}
+.Cart-Button{
+    align-self: center;
+    justify-self:flex-end;
+}
