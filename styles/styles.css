@@ -16,13 +16,13 @@
     height: 50px;
     width: 110px;
 }
-.logo{
-    background-image: url('img/amazon_logo.png');
-    height: 50px;
-    width: 100%;
+ .logo{
+     /* background-image: url('img/amazon_logo.png');  */
+    height: 45px;
+    width: 100px;
     background-size: cover;
 
-}
+} 
 .border{
     border: 2px solid transparent;
 }
@@ -114,14 +114,23 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
-.hero-section{
-    background-image: url('img/hero_image.jpg');
+ .hero-section{
+    /* background-image: url('Amazone Clone/img/hero_image.jpg');   */
     height: 400px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+} 
+ /* .hero-section .hero-image{
+    /* background-image: url('img/hero_image.jpg');  
+    height: 400px;
+    width: fit-content;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
+}  */
 .hero-message{
     color: black;
     background-color: white;
@@ -188,7 +197,7 @@ ul{
     margin-top: 20px;
 }
 ul a{
-    display: block;
+ 
     font-size: 0.85rem;
     margin-top: 10px;
     color: #dddddd;
