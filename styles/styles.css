@@ -326,3 +326,7 @@ ul a{
     align-self: center;
     justify-self:flex-end;
 }
+.cloth h2{
+    text-align: center;
+    padding-top: 10px;
+}
